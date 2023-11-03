@@ -1,0 +1,203 @@
+
+body{
+    /* background-color: silver; */
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgba(220, 245, 255, 0.932);      
+   box-sizing: border-box;
+   color: rgb(0, 0, 0);
+   
+   
+}
+.contenido{
+    min-height: calc(100vh - 95px - 100px);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;   
+}
+
+
+
+header{
+    
+    display:flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+    color: #000;   
+}
+
+
+.redes img{
+     /* border: 5px solid darkblue;  */
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin: auto;   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height:55px ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+.sobre_nosotros{
+    /* background-color: aquamarine;
+     border: 5px solid darkblue; */ 
+    display: flex;
+    min-height: 89vh;
+    justify-content: center;
+    }
+.info{
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.foto{
+    justify-content: center !important;
+    align-items: center;
+    display: flex;
+}
+
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(102, 102, 102);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(35, 37, 37);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(13, 14, 13);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+
+    
+#nuestra_foto{
+    height: auto;
+    width: 300px;
+}
+
+.redes{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    flex-direction: row;
+}
+
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    .sobre_nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p{
+        font-size: 1rem;
+    
+    }
+
+    .info{
+        width: 60%;
+
+    }
+
+    .foto{
+        height: auto;
+        width: 300px;
+    }
+#language-selector {
+    position: absolute;
+    align-items: center;
+    right: 215px;
+}
+#language-selectorES{
+    text-align:center;
+    right: 215px;
+}
+}
+
+
+
+
+

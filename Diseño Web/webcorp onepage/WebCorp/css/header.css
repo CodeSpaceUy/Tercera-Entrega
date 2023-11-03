@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#miCabecera {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: -50px; /* Oculta inicialmente la cabecera */
+    transition: top 0.3s;
+}
+
+#contenido {
+    padding: 20px;
+    margin-top: 110px; /* Asegura que el contenido no se oculte bajo la cabecera */
+}
